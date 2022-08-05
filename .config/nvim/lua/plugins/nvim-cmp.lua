@@ -11,13 +11,12 @@ cmp.setup {
     end,
   },
   sources = {
-    { name = "nvim_lsp", max_item_count = 30 },
-    { name = "path" },
     { name = "buffer" },
+    { name = "nvim_lsp" },
+    { name = "path" },
+    { name = 'nvim_lsp_signature_help' },
     { name = "nvim_lua" },
-    { name = "latex_symbols" },
-    { name = "treesitter" },
-    { name = "luasnip" },
+    { name = "crates" },
   },
 }
 
