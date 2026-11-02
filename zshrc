@@ -7,3 +7,5 @@ SAVEHIST=1000000000
 autoload -Uz compinit && compinit
 
 source <(fzf --zsh)
+
+source <(COMPLETE=zsh jj)
