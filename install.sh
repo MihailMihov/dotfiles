@@ -24,3 +24,4 @@ link() {
 link "$repo/zshrc" "$HOME/.zshrc"
 link "$repo/nvim" "$config/nvim"
 link "$repo/tmux" "$config/tmux"
+link "$HOME/Library/Mobile Documents/com~apple~CloudDocs" "$HOME/iCloud"
